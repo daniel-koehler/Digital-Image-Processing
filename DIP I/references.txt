@@ -1,0 +1,1 @@
+Useful webpage for conversions between color models: http://easyrgb.com/en/math.php
