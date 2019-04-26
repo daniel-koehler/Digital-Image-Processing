@@ -1,4 +1,4 @@
-image = imread('test.jpg');
+image = imread('landscape.jpg');
 
 % decompose image into R, G and B components
 imageR = image;
@@ -14,3 +14,4 @@ imageR = image(:,:,1);
 imageG = image(:,:,2);
 imageB = image(:,:,3);
 figure,montage({image, imageR, imageG, imageB})
+

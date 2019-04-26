@@ -1,4 +1,4 @@
-image = imread('test.jpg');
+image = imread('landscape.jpg');
 
 % decompose image into C, M and Y components with:
 % C = 1-R, M = 1-G, Y = 1-B

@@ -1,5 +1,5 @@
 clear
-image = imread('test.jpg');
+image = imread('landscape.jpg');
 imageHSV = rgbToHsv(image);     % one could use builtin: rgb2hsv(image)
 
 % decompose into single components
