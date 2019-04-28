@@ -8,7 +8,7 @@ function filteredImage = bayerFilter(image, pattern)
 %                       with the pattern [R G; G B]
 switch pattern
     case 'rggb'
-        block = uint8([1 2; 2 3]);
+        block = [1 2; 2 3];
     case 'bggr'
         block = [3 2; 2 1];
     case 'grbg'
@@ -19,7 +19,7 @@ switch pattern
         error('Pattern %s not supported.', pattern)
 end
 image = double(image);
-filteredImage = zeros(size(image,1)*2, size(image,2)*2, 3, 'uint8');
+filteredImage = zeros(size(image,1)*2, size(image,2)*2, 3);
 for i = 1:3
     % using Kronecker product
     filteredImage(:,:,i) = kron(image(:,:,i), block==i);
