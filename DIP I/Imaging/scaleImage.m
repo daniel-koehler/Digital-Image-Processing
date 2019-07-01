@@ -1,7 +1,6 @@
 function scaledImage = scaleImage(image, height, width)
 % scale image using bilinear interpolation
 
-% Upscale image using nearest neighbor interpolation
 [height0, width0, c] = size(image);
 
 image = double(image);

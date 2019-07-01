@@ -1,1 +1,2 @@
 Useful webpage for conversions between color models: http://easyrgb.com/en/math.php
+https://www.researchgate.net/post/How_can_I_perform_Delaunay_Triangulation_algorithm_in_C
